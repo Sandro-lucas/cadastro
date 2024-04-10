@@ -1,0 +1,24 @@
+<!Doctype html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        <div class="form-container">
+        <form method="post" action="formulario.php">
+            <label for="email">EMAIL:</label>
+            <input type="email" name="email" id="email" required autocomplete="off"><br>
+            <label for="senha">SENHA</label>
+            <input type="password" name="senha" id="senha" required autocapitalize="off"><br>
+
+            <input type="submit" name="cadastrar" value="CADASTRAR">
+            <input type="submit" name="login" value="LOGIN" >
+        </form>
+        </div>
+    </body>
+
+</html>
